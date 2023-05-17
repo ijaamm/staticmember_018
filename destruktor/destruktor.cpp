@@ -3,7 +3,7 @@ using namespace std;
 
 class angka {
 private:
-	int* arr;
+	int *arr;
 	int panjang;
 public:
 	angka(int);//constructor
@@ -38,3 +38,10 @@ void angka::isiData() {
 	cout << endl;
 }
 
+int main() {
+	angka belajarcpp(3); //constructor di panggil
+	angka *prtBelajarcpp = new angka(5);//constructor di panggil
+	delete prtBelajarcpp; //destructor di panggil
+
+	return 0;
+}

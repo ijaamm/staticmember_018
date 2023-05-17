@@ -13,3 +13,8 @@ public:
 	mahasiswa(int iNIM, string iNama);
 	void cetak();
 };
+
+mahasiswa::mahasiswa() {
+	nim = 0;
+	nama = " ";
+}
